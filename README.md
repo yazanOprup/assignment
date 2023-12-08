@@ -31,7 +31,7 @@ Follow these instructions to set up and run the project locally.
 
 ### Prerequisites
 
-- [Java](https://www.java.com/) (version X.X or higher)
+- [Java](https://www.java.com/) (version 17 or higher)
 - [Maven](https://maven.apache.org/) or [Gradle](https://gradle.org/) for building the project
 - [Docker](https://www.docker.com/) for containerization
 
