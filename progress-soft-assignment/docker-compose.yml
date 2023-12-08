@@ -10,7 +10,7 @@ services:
   db:
     image: mysql:latest
     environment:
-      MYSQL_DATABASE: root
+      MYSQL_DATABASE: progresssoft
       MYSQL_ROOT_PASSWORD: yazan0791490616
       MYSQL_USER: progresssoft-assignment
       MYSQL_PASSWORD: progresssoft123
