@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: yazan0791490616
+      MYSQL_USER: progresssoft-assignment
+      MYSQL_PASSWORD: progresssoft123
+    ports:
+      - "3306:3306"
