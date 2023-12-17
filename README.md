@@ -1,4 +1,4 @@
-# ProgressSoft Assignment
+
 
 This repository contains the solution for the ProgressSoft Corporation assignment - developing a clustered data warehouse for Bloomberg to analyze FX deals.
 
